@@ -1,0 +1,11 @@
+[project]
+name = "django-auth"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "bcrypt>=5.0.0",
+    "django[argon2]>=5.2.8",
+    "pillow>=12.0.0",
+]
